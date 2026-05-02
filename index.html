@@ -7,79 +7,145 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <section class="section">
-            <h2 class="section-title">Social</h2>
-            <div class="links">
-                <a href="https://youtube.com" class="link">YouTube</a>
-                <a href="https://mail.google.com" class="link">Gmail</a>
-                <a href="https://linkedin.com" class="link">LinkedIn</a>
-                <a href="https://docs.google.com/" class="link">Docs</a>
-            </div>
-        </section>
-        <section class="section">
-            <h2 class="section-title">METU</h2>
-            <div class="links">
-                <a href="https://student.metu.edu.tr/" class="link">Student Portal</a>
-                <a href="https://odtuclass2025s.metu.edu.tr/my/" class="link">ODTÜ Class</a>
-                <a href="https://psy.metu.edu.tr/" class="link">Dep. of Psychology</a>
-                <a href="https://bio.metu.edu.tr/" class="link">Dep. of Biology</a>
-                <a href="https://metu-tr.sona-systems.com/" class="link">SONA</a>
-            </div>
-        </section>
-        <section class="section">
-            <h2 class="section-title">Biology & Psychology</h2>
-            <div class="links">
-                
-                <a href="https://experimentology.io/" class="link">Experimentology</a>
-                <a href="https://bookdown.org/gregcox7/ims_psych/" class="link">Modern Statistical Methods for Psychology</a>
-                <a href="https://assets.waag.org/biohackacademy/" class="link">BioHack Academy</a>
-            </div>
-        </section>
-        <section class="section">
-            <h2 class="section-title">Neuroscience</h2>
-            <div class="links">
-                <a href="https://andysbrainbook.readthedocs.io/en/latest/" class="link">Andy's Brain Book</a>
-                <a href="https://compneuro.neuromatch.io/tutorials/intro.html" class="link">NeuroMatch</a>
-                <a href="https://neuronaldynamics.epfl.ch/online/index.html" class="link">Neuronal Dynamics</a>
-                <a href="https://textbook.nipraxis.org/intro.html" class="link">Brain Imaging</a>
-            </div>
-        </section>
-        <section class="section">
-            <h2 class="section-title">Vulkan</h2>
-            <div class="links">
-                <a href="https://registry.khronos.org/vulkan/specs/latest/html/vkspec.html" class="link">Vulkan Specification</a>
-                <a href="https://docs.vulkan.org/spec/latest/index.html" class="link">Vulkan Docs</a>
-                <a href="https://howtovulkan.com/" class="link">How to Vulkan</a>
-                <a href="https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/" class="link">Graphics Pipeline</a>
-            </div>
-        </section>
-        <section class="section">
-            <h2 class="section-title">Development</h2>
-            <div class="links">
-                <a href="https://github.com" class="link">GitHub</a>
-                <a href="https://en.cppreference.com/cpp" class="link">C++ Reference</a>
-                <a href="https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-180" class="link">Microsoft C++ Docs</a>
-                <a href="https://godbolt.org/" class="link">Compiler Explorer</a>
-            </div>
-        </section>
-         <section class="section">
-            <h2 class="section-title">GPU Programming</h2>
-            <div class="links">
-                <a href="https://github.com/ocornut/imgui/wiki" class="link">ImGUI Wiki</a>
-                <a href="https://pthom.github.io/imgui_explorer/" class="link">ImGUI Explorer</a>
-                <a href="https://www.scratchapixel.com/" class="link">Scratch A Pixel</a>
-                <a href="https://developer.nvidia.com/blog/even-easier-introduction-cuda/" class="link">Even Easier Cuda</a>
-                <a href="https://docs.nvidia.com/cuda/cuda-programming-guide/" class="link">Cuda Programming Guide</a>
-            </div>
-        </section>
-        <section class="section">
-            <h2 class="section-title">GameDev</h2>
-            <div class="links">
-                <a href="https://docs.godotengine.org/en/stable/" class="link">Godot Docs</a>
-                <a href="https://github.com/lettier/3d-game-shaders-for-beginners" class="link">3D Game Shaders for Beginners</a>              
-            </div>
-        </section>
-    </div>
+    <main class="page">
+        <form class="search-strip" id="search-form" role="search" autocomplete="off">
+            <label class="sr-only" for="search-input">Search the web</label>
+            <input id="search-input" class="search-input" name="q" type="search" placeholder="Search or type a URL" spellcheck="false" autofocus>
+        </form>
+
+        <div class="container">
+            <section class="section">
+                <h2 class="section-title">Social</h2>
+                <div class="links">
+                    <a href="https://youtube.com" class="link">YouTube</a>
+                    <a href="https://mail.google.com" class="link">Gmail</a>
+                    <a href="https://linkedin.com" class="link">LinkedIn</a>
+                    <a href="https://docs.google.com/" class="link">Docs</a>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">METU</h2>
+                <div class="links">
+                    <a href="https://student.metu.edu.tr/" class="link">Student Portal</a>
+                    <a href="https://odtuclass2025s.metu.edu.tr/my/" class="link">ODTÜ Class</a>
+                    <a href="https://psy.metu.edu.tr/" class="link">Dep. of Psychology</a>
+                    <a href="https://bio.metu.edu.tr/" class="link">Dep. of Biology</a>
+                    <a href="https://metu-tr.sona-systems.com/" class="link">SONA</a>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">Biology & Psychology</h2>
+                <div class="links">
+                    <a href="https://experimentology.io/" class="link">Experimentology</a>
+                    <a href="https://bookdown.org/gregcox7/ims_psych/" class="link">Modern Statistical Methods for Psychology</a>
+                    <a href="https://assets.waag.org/biohackacademy/" class="link">BioHack Academy</a>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">Neuroscience</h2>
+                <div class="links">
+                    <a href="https://andysbrainbook.readthedocs.io/en/latest/" class="link">Andy's Brain Book</a>
+                    <a href="https://compneuro.neuromatch.io/tutorials/intro.html" class="link">NeuroMatch</a>
+                    <a href="https://neuronaldynamics.epfl.ch/online/index.html" class="link">Neuronal Dynamics</a>
+                    <a href="https://textbook.nipraxis.org/intro.html" class="link">Brain Imaging</a>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">Vulkan</h2>
+                <div class="links">
+                    <a href="https://registry.khronos.org/vulkan/specs/latest/html/vkspec.html" class="link">Vulkan Specification</a>
+                    <a href="https://docs.vulkan.org/spec/latest/index.html" class="link">Vulkan Docs</a>
+                    <a href="https://howtovulkan.com/" class="link">How to Vulkan</a>
+                    <a href="https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/" class="link">Graphics Pipeline</a>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">Development</h2>
+                <div class="links">
+                    <a href="https://github.com" class="link">GitHub</a>
+                    <a href="https://en.cppreference.com/cpp" class="link">C++ Reference</a>
+                    <a href="https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-180" class="link">Microsoft C++ Docs</a>
+                    <a href="https://godbolt.org/" class="link">Compiler Explorer</a>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">GPU Programming</h2>
+                <div class="links">
+                    <a href="https://github.com/ocornut/imgui/wiki" class="link">ImGUI Wiki</a>
+                    <a href="https://pthom.github.io/imgui_explorer/" class="link">ImGUI Explorer</a>
+                    <a href="https://www.scratchapixel.com/" class="link">Scratch A Pixel</a>
+                    <a href="https://developer.nvidia.com/blog/even-easier-introduction-cuda/" class="link">Even Easier Cuda</a>
+                    <a href="https://docs.nvidia.com/cuda/cuda-programming-guide/" class="link">Cuda Programming Guide</a>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">GameDev</h2>
+                <div class="links">
+                    <a href="https://docs.godotengine.org/en/stable/" class="link">Godot Docs</a>
+                    <a href="https://github.com/lettier/3d-game-shaders-for-beginners" class="link">3D Game Shaders for Beginners</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script>
+        const searchForm = document.getElementById('search-form');
+        const searchInput = document.getElementById('search-input');
+
+        function isTypingKey(event) {
+            return event.key.length === 1 && !event.ctrlKey && !event.metaKey && !event.altKey;
+        }
+
+        function focusSearch(initialValue = '') {
+            searchInput.focus();
+            if (initialValue) {
+                searchInput.value = initialValue;
+                searchInput.setSelectionRange(searchInput.value.length, searchInput.value.length);
+            }
+        }
+
+        document.addEventListener('keydown', (event) => {
+            const activeElement = document.activeElement;
+            const isEditable = activeElement && (
+                activeElement.tagName === 'INPUT' ||
+                activeElement.tagName === 'TEXTAREA' ||
+                activeElement.isContentEditable
+            );
+
+            if (isEditable) {
+                return;
+            }
+
+            if (event.key === '/' || event.code === 'Slash') {
+                event.preventDefault();
+                focusSearch();
+                return;
+            }
+
+            if (isTypingKey(event)) {
+                event.preventDefault();
+                focusSearch(event.key);
+            }
+        });
+
+        searchForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const query = searchInput.value.trim();
+            if (!query) {
+                return;
+            }
+
+            const hasScheme = /^https?:\/\//i.test(query);
+            const looksLikeUrl = /^[\w-]+\.[\w.-]+(\/.*)?$/i.test(query);
+
+            if (hasScheme || looksLikeUrl) {
+                window.location.href = hasScheme ? query : `https://${query}`;
+                return;
+            }
+
+            window.location.href = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+        });
+    </script>
 </body>
 </html>
